@@ -19,7 +19,7 @@ namespace Api.Installers.Host
                         .MinimumLevel.Information()
                         // .Filter.ByExcluding(Matching.FromSource("Microsoft")) // only set logger by manuel
                         // .Filter.ByExcluding(Matching.FromSource("System")) // only set logger by manuel
-                        .WriteTo.Console(new CustomTextFormatter())
+                        .WriteTo.Console(outputTemplate: "{Level:w4}: {SourceContext}[0] {NewLine}      {Message:lj}{Exception}{NewLine}")
                         .WriteTo.File("Logs/logs.txt")
                         .WriteTo.PostgreSQL(configuration.GetConnectionString("PostgreSqlConnection"),"Logs",
                         needAutoCreateTable:true,

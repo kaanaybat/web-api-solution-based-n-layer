@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{19EB0FA0-93F9-4632-A78F-67264A1AD5EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching", "Caching\Caching.csproj", "{938EA353-3B6E-45B5-BCE4-EFF650DCA08A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{D1DEDB13-6679-4816-B219-30E12AE83148}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{19EB0FA0-93F9-4632-A78F-67264A1AD5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19EB0FA0-93F9-4632-A78F-67264A1AD5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19EB0FA0-93F9-4632-A78F-67264A1AD5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938EA353-3B6E-45B5-BCE4-EFF650DCA08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938EA353-3B6E-45B5-BCE4-EFF650DCA08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938EA353-3B6E-45B5-BCE4-EFF650DCA08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938EA353-3B6E-45B5-BCE4-EFF650DCA08A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DEDB13-6679-4816-B219-30E12AE83148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DEDB13-6679-4816-B219-30E12AE83148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DEDB13-6679-4816-B219-30E12AE83148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DEDB13-6679-4816-B219-30E12AE83148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

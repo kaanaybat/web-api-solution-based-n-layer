@@ -4,3 +4,7 @@ dotnet ef migrations add Initial  --startup-project ../Api/Api.csproj
 
 dotnet add Api/Api.csproj reference Logging/Logging.csproj
 
+dotnet sln add Caching/Caching.csproj
+dotnet sln add Logging/Logging.csproj
+
+
